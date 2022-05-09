@@ -168,13 +168,12 @@ and then we type:
 npm start
 ```
 
-The frontend will run on ... and the app is live to play with !!!
+The frontend will run on http://localhost:3000/ and the app is live !!!
 
 <img src="frontend/src/assets/fichain-frontend.png" alt="frontend-1" title="Optional title">
 
 Finally, it would be recommended to proceed with some test transactions,
-in order to add blocks, store some data and therefore being able to exchange, 
-as well as mine some blocks.
+in order to add blocks, store some data and therefore being able to interact with the blockchain.
 
 To do so, on a 3rd terminal activate our virtual environment (env) and type:
 
