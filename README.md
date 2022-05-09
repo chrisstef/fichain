@@ -1,4 +1,4 @@
-## Fichain | A Blockchain & Cryptocurrency app
+<!-- ## Fichain | A Blockchain & Cryptocurrency app
 
 ![frontend](fichain-frontend.png)
 
@@ -121,4 +121,4 @@ export SEED_DATA=True && python3 -m backend.app
 
 
 ## Dona
-
+ -->
