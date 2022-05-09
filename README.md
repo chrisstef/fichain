@@ -20,7 +20,7 @@ It's innovation, is that it guarantees the transparency and security of a record
 and generates trust without the need for a trusted third party.
 The validation of the transactions and therefore the continuation of the (block)chain is called mining.
 
-## What about mining?
+### What about mining?
 
 Each time a transaction is made, it’s broadcasted to the entire network. 
 Upon hearing the broadcasts, miners take a bunch of transactions, validate that they are “legitimate” — and put them into a block.
@@ -32,7 +32,7 @@ This process is known as ‘proof of work’.
 With those in mind, let's dive deeper...
 
 
-## About the application
+## The application
 
 This app, aims to demonstrate the above concepts.
 As a client while entering the app, we will be taking the role of the miner,
