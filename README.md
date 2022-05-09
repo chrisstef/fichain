@@ -7,7 +7,7 @@
 
 Understanding blockchain isn't easy. At least it wasn't for me. 
 I had to go through number of frustrations due to a few funcional open source examples of how this technology works.
-And I like learning by doing so if you do the same, allow me to guide you and by the end you will have a functioning blockchain.
+And I like learning by doing so if you do the same, allow me to guide you and by the end you will also have a functioning blockchain.
 To take it a step further, I connected the blockchain with a frontend UI to provide a solid idea of how blockchains work.
 
 
