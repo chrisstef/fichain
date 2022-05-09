@@ -148,7 +148,8 @@ python -m backend.app
 
 If all goes good, our app will run on .... and the result should be something like this:
 
-{fichain.backend}
+<img src="frontend/src/assets/fichain-flask.png" alt="flask" title="Optional title">
+
 
 On a new terminal, we navigate on our React folder with:
 
