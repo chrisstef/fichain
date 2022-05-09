@@ -7,28 +7,28 @@
 
 Understanding blockchain isn't easy. At least it wasn't for me. 
 I had to go through number of frustrations due to a few funcional open source examples of how this technology works.
-And I like learning by doing so if you do the same, allow me to guide you and by the end you will also have a functioning blockchain.
-To take it a step further, I connected the blockchain with a frontend UI to provide a solid idea of how blockchains work.
+And I like __learning by doing__ so if you do the same, allow me to guide you and by the end you will also have a __functioning blockchain__.
+To take it a step further, I connected the blockchain with a __frontend UI__ to provide a solid perception of how blockchains work.
 
 
 ### So, what is blockchain?
 
-Remember that a blockchain is an immutable, sequential chain of records called blocks. 
-The important thing is that they’re chained together using hashes.
-They can contain transactions, files or any data you like, really! 
-It's innovation, is that it guarantees the transparency and security of a record of data,
-and generates trust without the need for a trusted third party.
-The validation of the transactions and therefore the continuation of the (block)chain is called mining.
+Remember that a blockchain is an __immutable, sequential_ chain of records called __blocks__. 
+The important thing is that they’re chained together using __hashes__.
+They can contain transactions, files or __any data__ you like, really! 
+It's innovation, is that it guarantees the __transparency__ and __security__ of a record of data,
+and generates trust __without__ the need for a trusted __third party__.
+The __validation__ of the transactions and therefore the continuation of the (block)chain is called __mining__.
 
 
 ### What about mining?
 
-Each time a transaction is made, it’s broadcasted to the entire network. 
-Upon hearing the broadcasts, miners take a bunch of transactions, validate that they are “legitimate” — and put them into a block.
-For a public blockchain, the decision to add a transaction to the chain is made by consensus. 
-This means that the majority of “nodes” (miners) must agree that the transaction is valid. 
-The people who own the computers in the network are incentivised to verify transactions through rewards. 
-This process is known as ‘proof of work’.
+Each time a __transaction__ is made, it’s broadcasted to the __entire network__. 
+Upon hearing the broadcasts, __miners__ take a bunch of transactions, __validate__ that they are “legitimate” — and put them into a block.
+For a __public__ blockchain, the decision to add a transaction to the chain is made by __consensus__. 
+This means that __the majority__ of “nodes” (miners) __must agree__ that the transaction is valid. 
+The people who own the computers in the network are incentivised to verify transactions through __rewards__. 
+This process is known as __‘proof of work’__.
 
 With those in mind, let's dive deeper...
 
@@ -36,35 +36,35 @@ With those in mind, let's dive deeper...
 ## The application ⛓
 
 This app, aims to demonstrate the above concepts.
-As a client while entering the app, we will be taking the role of the miner,
-participating in the creation of the blockchain by validating blocks.
+As a client while entering the app, we will be taking the role of the __miner__,
+and participate in the creation of the blockchain by validating blocks.
 
 
 ### My workflow
 
-- Building the Blockchain app with Python.
+- Building the blockchain app with __Python__.
 
-- Implement Dynamic difficulty for the mining of new blocks.
+- Implement __dynamic difficulty__ for the mining of new blocks.
 
-- Incorporate the crucial concept of Proof of Work into the Blockchain.
+- Incorporate the crucial concept of __Proof of Work__ into the blockchain.
 
-- Enhance the application to prepare for networking.
+- Enhance the application to prepare for __networking__.
 
-- Create the Blockchain network using Flask and Pub/Sub.
+- Create the Blockchain network using __Flask__ and __Pub/Sub__.
 
-- Integrate the Cryptocurrency, building Wallets, Keys, and Transactions.
+- Integrate the __Cryptocurrency__, building __Wallets, Keys,__ and __Transactions__.
 
-- Testing the app using Pytest.
+- Testing the app using __Pytest__.
 
-- Extend the network implementation with the cryptocurrency.
+- Extend the __network implementation__ with the cryptocurrency.
 
-- Transition from Python to JavaScript to continue with building the frontend.
+- Transition from Python to __JavaScript__ to continue with building the frontend.
 
-- Establish frontend-backend connections and begin coding with React.js.
+- Establish frontend-backend connections and begin coding with __React.js__.
 
 - Create the frontend portion for the blockchain portion of the system.
 
-- Complete the frontend by building a UI for the cryptocurrency portion of the system.
+- Complete the frontend by building a __UI__ for the cryptocurrency portion of the system.
 
 At this moment, there is an initial deployment but there are more actions needed to be made,
 in order to deploy both Flask and React subfolders and estabilish a full deployment (propably on Heroku).
