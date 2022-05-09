@@ -2,7 +2,8 @@
 
 <img src="frontend/src/assets/fichain-frontend.png" alt="frontend" title="Optional title">
 
-## Background
+
+## Background 📖
 
 Understanding blockchain isn't easy. At least it wasn't for me. 
 I had to go through number of frustrations due to a few funcional open source examples of how this technology works.
@@ -19,6 +20,7 @@ It's innovation, is that it guarantees the transparency and security of a record
 and generates trust without the need for a trusted third party.
 The validation of the transactions and therefore the continuation of the (block)chain is called mining.
 
+
 ### What about mining?
 
 Each time a transaction is made, it’s broadcasted to the entire network. 
@@ -31,11 +33,12 @@ This process is known as ‘proof of work’.
 With those in mind, let's dive deeper...
 
 
-## The application
+## The application ⛓
 
 This app, aims to demonstrate the above concepts.
 As a client while entering the app, we will be taking the role of the miner,
 participating in the creation of the blockchain by validating blocks.
+
 
 ### My workflow
 
@@ -71,7 +74,7 @@ Feel free to check the current deployment here:
 https://fichain.vercel.app/
 
 
-## Installation
+## Installation 🛠
 
 First, navigate to the folder where your project will exist:
 
@@ -84,6 +87,7 @@ Then, clone to the project with the following command:
 ```
 git clone https://github.com/chrisstef/fichain
 ```
+
 
 ### Virtual Environment
 
@@ -99,6 +103,7 @@ Let's proceed with activating it:
 ```
 
 Our virtual environment called `env` is activated. Moving to backend.
+
 
 ### Backend
 
@@ -137,7 +142,7 @@ npm install
 ```
 
 
-## Run application
+## Run application 🤖
 
 To run the application, we first need to start the flask app (network-backend).
 To do so, we have to open a new terminal, activate our virtual environment (env) and type:
@@ -180,8 +185,10 @@ python -m backend.scripts.test_app
 This script will create test transactions between known addresses and distribute the
 block reward on the nodes. The script runs 4 times, therefore we will have 4 new blocks.
 
+<img src="frontend/src/assets/fichain-populate.png" alt="populate" title="Optional title">
 
-## Run tests
+
+## Run tests ✔
 
 The general approach to tests is to create a series of assert statements that verify whether or not a value is equal to some other value.
 Our test were made with `pytest` and in total we made 40 assertions and all of them were successful.
@@ -203,10 +210,8 @@ Here's the code:
 python -m backend.scripts.average_block_rate
 ```
 
-<img src="frontend/src/assets/fichain-populate.png" alt="frontend" title="Optional title">
 
-
-## Command Reference
+## Command Reference 💻
 
 **Activate the virtual environment**
 ```
@@ -242,17 +247,17 @@ npm start
 ```
 
 
-## Contribution
+## Contribution 💡
 
 Thank you for considering to help out with the source code! I welcome contributions from anyone on the internet, 
-and am grateful for even the smallest of fixes!
+and am grateful for even the smallest of fixes all the way to your best ideas!
 If you'd like to contribute to fichain, please fork, fix, commit and send a pull request to review and merge into the main code base. 
 
 
-## Acknowledgments:
+## Acknowledgments 🙏
 
 This project wouldn't have been possible without the help of certain people,
 who although unknowingly helped me to understand concepts of Blockchain and Cryptocurrency systems. 
 The course link which I took is given below.
 
-{Udemy course on Cryptocurrency systems}
+https://www.udemy.com/course/python-js-react-blockchain/
