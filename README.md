@@ -146,7 +146,7 @@ To do so, we have to open a new terminal, activate our virtual environment (env)
 python -m backend.app
 ```
 
-If all goes good, our app will run on .... and the result should be something like this:
+If all goes good, our flask app will run on http://127.0.0.1:5000 and the result should be something like this:
 
 <img src="frontend/src/assets/fichain-flask.png" alt="flask" title="Optional title">
 
@@ -163,10 +163,9 @@ and then we type:
 npm start
 ```
 
-The frontend will run on ... and the app is live to test!!!
+The frontend will run on ... and the app is live to play with !!!
 
-{photo}
-
+<img src="frontend/src/assets/fichain-frontend.png" alt="frontend-1" title="Optional title">
 
 Finally, it would be recommended to proceed with some test transactions,
 in order to add blocks, store some data and therefore being able to exchange, 
@@ -193,6 +192,9 @@ To run the test navigate on the root directory and:
 python -m pytest backend/tests
 ```
 
+<img src="frontend/src/assets/fichain-tests.png" alt="tests" title="Optional title">
+
+
 Finally, there is a last script which demonstrates the average block rate based on the adjusted difficulty mechanism.
 
 Here's the code:
@@ -200,6 +202,8 @@ Here's the code:
 ```
 python -m backend.scripts.average_block_rate
 ```
+
+<img src="frontend/src/assets/fichain-populate.png" alt="frontend" title="Optional title">
 
 
 ## Command Reference
