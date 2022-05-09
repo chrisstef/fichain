@@ -11,7 +11,7 @@ And I like learning by doing so if you do the same, allow me to guide you and by
 To take it a step further, I connected the blockchain with a frontend UI to provide a solid idea of how blockchains work.
 
 
-**So, what is blockchain?**
+### So, what is blockchain?
 
 Remember that a blockchain is an immutable, sequential chain of records called blocks. 
 The important thing is that they’re chained together using hashes.
@@ -20,7 +20,7 @@ It's innovation, is that it guarantees the transparency and security of a record
 and generates trust without the need for a trusted third party.
 The validation of the transactions and therefore the continuation of the (block)chain is called mining.
 
-**What about mining?**
+## What about mining?
 
 Each time a transaction is made, it’s broadcasted to the entire network. 
 Upon hearing the broadcasts, miners take a bunch of transactions, validate that they are “legitimate” — and put them into a block.
@@ -38,19 +38,30 @@ This app, aims to demonstrate the above concepts.
 As a client while entering the app, we will be taking the role of the miner,
 participating in the creation of the blockchain by validating blocks.
 
-**My workflow:**
+### My workflow
 
 - Building the Blockchain app with Python.
+
 - Implement Dynamic difficulty for the mining of new blocks.
+
 - Incorporate the crucial concept of Proof of Work into the Blockchain.
+
 - Enhance the application to prepare for networking.
+
 - Create the Blockchain network using Flask and Pub/Sub.
+
 - Integrate the Cryptocurrency, building Wallets, Keys, and Transactions.
+
 - Testing the app using Pytest.
+
 - Extend the network implementation with the cryptocurrency.
+
 - Transition from Python to JavaScript to continue with building the frontend.
+
 - Establish frontend-backend connections and begin coding with React.js.
+
 - Create the frontend portion for the blockchain portion of the system.
+
 - Complete the frontend by building a UI for the cryptocurrency portion of the system.
 
 At this moment, there is an initial deployment but there are more actions needed to be made,
@@ -75,7 +86,7 @@ Then, clone to the project with the following command:
 git clone https://github.com/chrisstef/fichain
 ```
 
-**Virtual Environment**
+### Virtual Environment
 
 A virtual environment allows us to create an isolated space where our project can install its external packages. 
 This is especially helpful when we're managing multiple projects on our machines. 
@@ -90,7 +101,7 @@ Let's proceed with activating it:
 
 Our virtual environment called `env` is activated. Moving to backend.
 
-**Backend**
+### Backend
 
 Make sure that virtual environment is activated:
 
@@ -113,7 +124,7 @@ pip install -r requirements.txt
 Backend is set up. 
 
 
-**Frontend**
+### Frontend
 
 With env activated, navigate to the `/frontend` directory:
 
@@ -154,8 +165,7 @@ npm start
 
 The frontend will run on ... and the app is live to test!!!
 
-
-
+{photo}
 
 
 Finally, it would be recommended to proceed with some test transactions,
@@ -224,11 +234,11 @@ python -m backend.app
 
 In the frontend directory:
 ```
-npm run start
+npm start
 ```
 
 
-## Contribution:
+## Contribution
 
 Thank you for considering to help out with the source code! I welcome contributions from anyone on the internet, 
 and am grateful for even the smallest of fixes!
@@ -242,4 +252,3 @@ who although unknowingly helped me to understand concepts of Blockchain and Cryp
 The course link which I took is given below.
 
 {Udemy course on Cryptocurrency systems}
-
