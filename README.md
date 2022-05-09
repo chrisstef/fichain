@@ -1,6 +1,6 @@
-<!-- ## Fichain | A Blockchain & Cryptocurrency App
+## Fichain | A Blockchain & Cryptocurrency App
 
-<!-- [frontend](fichain-frontend.png)
+[frontend](fichain-frontend.png)
 
 
 ## Background
@@ -79,8 +79,7 @@ git clone https://github.com/chrisstef/fichain
 
 A virtual environment allows us to create an isolated space where our project can install its external packages. 
 This is especially helpful when we're managing multiple projects on our machines. 
-Often, external packages update their classes and methods when new versions are released.
-However, separate virtual environments can have different versions of the same package installed - that way,
+Separate virtual environments can have different versions of the same package installed - that way,
 each project can rely on the versions of their dependencies to stay consistent.
 
 Let's proceed with activating it:
@@ -89,7 +88,7 @@ Let's proceed with activating it:
 .\env\Scripts\activate
 ```
 
-Our virtual environment called `env` is activated. Time to move on the backend.
+Our virtual environment called `env` is activated. Moving to backend.
 
 **Backend**
 
@@ -116,37 +115,93 @@ Backend is set up.
 
 **Frontend**
 
-Navigate the to `/frontend` directory where our React code will exist with:
+With env activated, navigate to the `/frontend` directory:
+
+```
+cd frontend
+```
+and then:
+
+```
+npm install
+```
+
+
+## Run application
+
+To run the application, we first need to start the flask app (network-backend).
+To do so, we have to open a new terminal, activate our virtual environment (env) and type:
+
+```
+python -m backend.app
+```
+
+If all goes good, our app will run on .... and the result should be something like this:
+
+{fichain.backend}
+
+On a new terminal, we navigate on our React folder with:
 
 ```
 cd frontend
 ```
 
+and then we type:
+
+```
+npm start
+```
+
+The frontend will run on ... and the app is live to test!!!
 
 
 
 
 
+Finally, it would be recommended to proceed with some test transactions,
+in order to add blocks, store some data and therefore being able to exchange, 
+as well as mine some blocks.
 
+To do so, on a 3rd terminal activate our virtual environment (env) and type:
 
-## Run application
+```
+python -m backend.scripts.test_app
+```
 
+This script will create test transactions between known addresses and distribute the
+block reward on the nodes. The script runs 4 times, therefore we will have 4 new blocks.
 
 
 ## Run tests
 
+The general approach to tests is to create a series of assert statements that verify whether or not a value is equal to some other value.
+Our test were written with `pytest` and in total we made 40 assertions which were succesfull.
+
+To run the test navigate on the root directory and:
+
+```
+python -m pytest backend/tests
+```
+
+Finally, there is a last script which demonstrates the average block rate based on the adjusted difficulty mechanism.
+
+Here's the code:
+
+```
+python -m backend.scripts.average_block_rate
+```
 
 
 ## Command Reference
 
 **Activate the virtual environment**
 ```
-source blockchain-env/bin/activate
+.\env\Scripts\activate
 ```
 
 **Install all packages**
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 **Run the tests**
@@ -154,7 +209,7 @@ pip3 install -r requirements.txt
 Make sure to activate the virtual environment.
 
 ```
-python3 -m pytest backend/tests
+python -m pytest backend/tests
 ```
 
 **Run the application and API**
@@ -162,15 +217,7 @@ python3 -m pytest backend/tests
 Make sure to activate the virtual environment.
 
 ```
-python3 -m backend.app
-```
-
-**Run a peer instance**
-
-Make sure to activate the virtual environment.
-
-```
-export PEER=True && python3 -m backend.app
+python -m backend.app
 ```
 
 **Run the frontend**
@@ -180,20 +227,19 @@ In the frontend directory:
 npm run start
 ```
 
-**Seed the backend with data**
-
-Make sure to activate the virtual environment.
-
-```
-export SEED_DATA=True && python3 -m backend.app
-```
-
-
-## Future ideas:
-
 
 ## Contribution:
 
+Thank you for considering to help out with the source code! I welcome contributions from anyone on the internet, 
+and am grateful for even the smallest of fixes!
+If you'd like to contribute to fichain, please fork, fix, commit and send a pull request to review and merge into the main code base. 
 
-## Dona -->
+
+## Acknowledgments:
+
+This project wouldn't have been possible without the help of certain people,
+who although unknowingly helped me to understand concepts of Blockchain and Cryptocurrency systems. 
+The course link which I took is given below.
+
+{Udemy course on Cryptocurrency systems}
 
