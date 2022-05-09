@@ -185,7 +185,7 @@ block reward on the nodes. The script runs 4 times, therefore we will have 4 new
 ## Run tests
 
 The general approach to tests is to create a series of assert statements that verify whether or not a value is equal to some other value.
-Our test were written with `pytest` and in total we made 40 assertions which were succesful.
+Our test were made with `pytest` and in total we made 40 assertions and all of them were successful.
 
 To run the test navigate on the root directory and:
 
