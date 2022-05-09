@@ -66,7 +66,7 @@ and participate in the creation of the blockchain by validating blocks.
 
 - Complete the frontend by building a __UI__ for the cryptocurrency portion of the system.
 
-At this moment, there is an initial deployment but there are more actions needed to be made,
+At this point, there is an initial deployment but there are more actions needed to be made,
 in order to deploy both Flask and React subfolders and estabilish a full deployment (propably on Heroku).
 
 Feel free to check the current deployment here:
