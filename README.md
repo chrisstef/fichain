@@ -1,6 +1,6 @@
 ## Fichain | A Blockchain & Cryptocurrency App
 
-[frontend](fichain-frontend.png)
+<img src="../assets/fichain-frontend.png" alt="frontend" title="Optional title" width=auto height="400">
 
 
 ## Background
