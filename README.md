@@ -13,7 +13,7 @@ To take it a step further, I connected the blockchain with a __frontend UI__ to 
 
 ### So, what is blockchain?
 
-Remember that a blockchain is an __immutable, sequential_ chain of records called __blocks__. 
+Remember that a blockchain is an __immutable__, __sequential__ chain of records called __blocks__. 
 The important thing is that they’re chained together using __hashes__.
 They can contain transactions, files or __any data__ you like, really! 
 It's innovation, is that it guarantees the __transparency__ and __security__ of a record of data,
