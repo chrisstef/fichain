@@ -25,6 +25,7 @@ The __validation__ of the transactions and therefore the continuation of the (bl
 
 Each time a __transaction__ is made, it’s broadcasted to the __entire network__. 
 Upon hearing the broadcasts, __miners__ take a bunch of transactions, __validate__ that they are “legitimate” — and put them into a block.
+The validation is usually accomplished by solving complex __mathematical problems__ to be able to generate the new hash and finally add the new block.
 For a __public__ blockchain, the decision to add a transaction to the chain is made by __consensus__. 
 This means that __the majority__ of “nodes” (miners) __must agree__ that the transaction is valid. 
 The people who own the computers in the network are incentivised to verify transactions through __rewards__. 
