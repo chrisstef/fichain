@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <GithubCorner
-        href="https://github.com/chrisstef"
+        href="https://github.com/chrisstef/fichain"
         target="__blank"
         bannerColor="#e66"
         octoColor="#fff"
