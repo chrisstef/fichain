@@ -6,7 +6,7 @@
 ## Background 📖
 
 Understanding blockchain isn't easy. At least it wasn't for me. 
-I had to go through number of frustrations due to a few funcional open source examples of how this technology works.
+I had to go through number of frustrations due to a few functional open source examples of how this technology works.
 And I like __learning by doing__ so if you do the same, allow me to guide you and by the end you will also have a __functioning blockchain__.
 To take it a step further, I connected the blockchain with a __frontend UI__ to provide a solid perception of how blockchains work.
 
