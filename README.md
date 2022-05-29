@@ -63,7 +63,7 @@ and participate in the creation of the blockchain by validating blocks.
 
 - Establish frontend-backend connections and begin coding with __React.js__.
 
-- Create the frontend portion for the blockchain portion of the system.
+- Create the frontend for the blockchain portion of the system.
 
 - Complete the frontend by building a __UI__ for the cryptocurrency portion of the system.
 
