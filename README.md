@@ -43,7 +43,7 @@ and participate in the creation of the blockchain by validating blocks.
 
 ### My workflow
 
-- Building the blockchain app with __Python__.
+- Build the blockchain app with __Python__.
 
 - Implement __dynamic difficulty__ for the mining of new blocks.
 
@@ -55,7 +55,7 @@ and participate in the creation of the blockchain by validating blocks.
 
 - Integrate the __Cryptocurrency__, building __Wallets, Keys,__ and __Transactions__.
 
-- Testing the app using __Pytest__.
+- Test the app using __Pytest__.
 
 - Extend the __network implementation__ with the cryptocurrency.
 
