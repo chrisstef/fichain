@@ -1,4 +1,4 @@
-## Fichain | A Blockchain & Cryptocurrency App
+## Fichain | Blockchain & Cryptocurrency App
 
 <img src="frontend/src/assets/fichain-frontend.png" alt="frontend" title="Optional title">
 
